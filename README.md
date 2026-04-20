@@ -1,29 +1,50 @@
-# Project Structure
+# 🎓 Student Performance Prediction System
 
-Final_Project_Score_Identification/
-│
-├── app.py                 # Main application file (root level)
-├── Github_app.py          # Alternative Flask app
-├── Makefile               # Build configuration
-├── Presentation.pptx      # Project presentation
-├── requirements.txt       # Python dependencies
-├── Credentials.txt        # Configuration credentials
-├── Domain.txt             # Domain configuration
-├── tox.ini                # Testing configuration
-│
-├── src/                   # Source code directory
-│   ├── app.py            # Application entry point
-│   ├── data/             # Data processing modules
-│   ├── features/         # Feature engineering
-│   ├── models/           # Model implementations
-│   └── visualization/    # Visualization utilities
-│
-├── models/                # Trained ML models
-│   ├── train_model.pkl   # Pre-trained model
-│   └── train_model-1.pkl # Alternative model
-│
-├── docs/                  # Documentation
-├── notebooks/             # Jupyter notebooks for analysis
-├── references/            # Reference materials
-├── reports/               # Analysis reports
-└── LICENSE
+## 📌 Overview
+This project focuses on predicting student academic performance using machine learning techniques.  
+The system analyzes multiple features related to students and generates predictions for final scores.
+
+---
+
+## 🚀 Features
+- End-to-end machine learning pipeline
+- Data preprocessing and feature engineering
+- Multiple regression models comparison
+- Model evaluation using standard metrics
+- Clean and modular code structure
+
+---
+
+## 🧠 Machine Learning Workflow
+1. Data Collection & Loading  
+2. Data Cleaning & Preprocessing  
+3. Exploratory Data Analysis (EDA)  
+4. Feature Engineering  
+5. Model Training  
+6. Model Evaluation  
+7. Prediction
+
+---
+
+## ⚙️ Tech Stack
+- Python  
+- Pandas, NumPy  
+- Scikit-learn  
+- Matplotlib / Seaborn  
+
+---
+
+## 📊 Models Used
+- Linear Regression  
+- Random Forest Regressor  
+- (Optional) XGBoost  
+
+---
+
+## 📈 Evaluation Metrics
+- RMSE (Root Mean Squared Error)  
+- R² Score  
+
+---
+
+## 🏗️ Project Structure
